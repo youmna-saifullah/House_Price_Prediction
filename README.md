@@ -1,54 +1,32 @@
 # 🏠 House Price Prediction App
 
+![App Banner](assets/app_banner.png)
+
 A Flutter mobile application that predicts house prices using machine learning, with a Python Flask backend.
 
+## ✨ Features
 
-
-## Features
-
-- **AI-Powered Predictions**: Machine learning model trained on housing data
-- **Cross-Platform**: Works on both Android and iOS
-- **User-Friendly Interface**: Simple form input with clear results
-- **Backend API**: Flask server handles model predictions
-- **Responsive Design**: Adapts to different screen sizes
+- **AI-Powered Predictions**: Machine learning model trained on California housing data
+- **Cross-Platform**: Works seamlessly on both Android and iOS devices
+- **Intuitive UI**: Clean, user-friendly interface with responsive design
+- **Real-Time Results**: Instant price estimates with clear visualization
+- **Robust Backend**: Flask API serving trained ML model predictions
 
 ## 📦 Prerequisites
 
-- Flutter SDK (v3.0.0 or higher)
-- Python 3.8+
-- Android Studio/Xcode (for emulators)
-- Pip package manager
+Before you begin, ensure you have met the following requirements:
 
-## 🛠️ Installation
+- **Flutter SDK** (v3.0.0 or higher)
+- **Python** (3.8 or higher)
+- **Pip** package manager
+- **Android Studio** or **Xcode** (for emulators)
+- **Git** (for version control)
+
+## 🚀 Installation
 
 ### Backend Setup
 
-1. Navigate to backend folder:
+1. Clone the repository:
    ```bash
-   cd Backend
-2.
-pip install -r requirements.txt
-python model.py
-python app.py
-
-### Frontend Setup
-cd house_price_prediction
-flutter pub get
-flutter run
-
-house_price_prediction/
-├── Backend/               # Python Flask API
-│   ├── app.py             # Flask server
-│   ├── model.py           # ML model training
-│   └── requirements.txt   # Python dependencies
-│
-├── assets/                # App assets
-│   └── house_bg.png       # Background image
-│
-├── lib/                   # Flutter source code
-│   ├── main.dart          # App entry point
-│   ├── home_page.dart     # Main screen UI
-│   └── prediction_page.dart # Prediction form
-│
-└── pubspec.yaml           # Flutter dependencies
-
+   git clone https://github.com/youmna-saifullah/house-price-prediction.git
+   cd house-price-prediction/Backend
