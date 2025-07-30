@@ -17,6 +17,7 @@ class MyApp extends StatelessWidget {
         visualDensity: VisualDensity.adaptivePlatformDensity,
         fontFamily: 'Roboto', // Add your preferred font
       ),
+      
       routes: {
         '/': (context) => HomePage(),
         '/predict': (context) => PredictionPage(),
